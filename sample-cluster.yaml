@@ -1,0 +1,157 @@
+apiVersion: cluster.x-k8s.io/v1beta1
+kind: Cluster
+metadata:
+  annotations:
+    run.tanzu.vmware.com/image-registry: ""
+    run.tanzu.vmware.com/nodepool-status: '{"md-0":{"name":"md-0","phase":"Running","uid":"de3d1291-7848-4221-96f5-b783f3220436","creationTimestamp":"2024-03-04T18:31:31Z","updateTimestamp":"2024-03-04T18:35:31Z","resourceVersion":"5335843","replicas":1,"readyReplicas":1}}'
+    run.tanzu.vmware.com/proxy-name: ""
+    run.tanzu.vmware.com/tkr-spec: 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
+    run.tanzu.vmware.com/vmware-system-tmc-applied: "true"
+    run.tanzu.vmware.com/vmware-system-tmc-cluster-group: pre-production
+    run.tanzu.vmware.com/vmware-system-tmc-managed: "true"
+    tkg.tanzu.vmware.com/skip-tls-verify: ""
+    tkg.tanzu.vmware.com/tkg-http-proxy: ""
+    tkg.tanzu.vmware.com/tkg-https-proxy: ""
+    tkg.tanzu.vmware.com/tkg-ip-family: ""
+    tkg.tanzu.vmware.com/tkg-no-proxy: ""
+    tkg.tanzu.vmware.com/tkg-proxy-ca-cert: ""
+  creationTimestamp: "2024-03-04T18:31:23Z"
+  finalizers:
+  - cluster.cluster.x-k8s.io
+  - tkg.tanzu.vmware.com/addon
+  generation: 4
+  labels:
+    cluster.x-k8s.io/cluster-name: pre-prod1
+    run.tanzu.vmware.com/tkr: v1.26.5---vmware.2-fips.1-tkg.1
+    topology.cluster.x-k8s.io/owned: ""
+  name: pre-prod1
+  namespace: tmcsm
+  resourceVersion: "7076761"
+  uid: 6c7e2ea6-3262-436e-93e8-30abeca28333
+spec:
+  clusterNetwork:
+    pods:
+      cidrBlocks:
+      - 172.20.0.0/16
+    serviceDomain: cluster.local
+    services:
+      cidrBlocks:
+      - 10.96.0.0/16
+  controlPlaneEndpoint:
+    host: 10.214.162.71
+    port: 6443
+  controlPlaneRef:
+    apiVersion: controlplane.cluster.x-k8s.io/v1beta1
+    kind: KubeadmControlPlane
+    name: pre-prod1-qb6xb
+    namespace: tmcsm
+  infrastructureRef:
+    apiVersion: vmware.infrastructure.cluster.x-k8s.io/v1beta1
+    kind: VSphereCluster
+    name: pre-prod1-v8t7x
+    namespace: tmcsm
+  topology:
+    class: tanzukubernetescluster
+    controlPlane:
+      metadata:
+        annotations:
+          run.tanzu.vmware.com/resolve-os-image: os-name=ubuntu,os-version=20.04,os-arch=amd64
+      replicas: 3
+    variables:
+    - name: TKR_DATA
+      value:
+        v1.26.5+vmware.2-fips.1:
+          kubernetesSpec:
+            coredns:
+              imageRepository: localhost:5000/vmware.io
+              imageTag: v1.9.3_vmware.10-fips.1
+            etcd:
+              imageRepository: localhost:5000/vmware.io
+              imageTag: v3.5.6_vmware.14-fips.1
+            imageRepository: localhost:5000/vmware.io
+            kube-vip: null
+            pause:
+              imageRepository: localhost:5000/vmware.io
+              imageTag: "3.9"
+            version: v1.26.5+vmware.2-fips.1
+          labels:
+            image-type: vmi
+            os-arch: amd64
+            os-name: ubuntu
+            os-type: linux
+            os-version: "20.04"
+            run.tanzu.vmware.com/os-image: vmi-c49177f0f94c6c964
+            run.tanzu.vmware.com/tkr: v1.26.5---vmware.2-fips.1-tkg.1
+            vmi-name: vmi-c49177f0f94c6c964
+          osImageRef:
+            name: vmi-c49177f0f94c6c964
+    - name: clusterEncryptionConfigYaml
+      value: LS0tCmFwaVZlcnNpb246IGFwaXNlcnZlci5jb25maWcuazhzLmlvL3YxCmtpbmQ6IEVuY3J5cHRpb25Db25maWd1cmF0aW9uCnJlc291cmNlczoKICAtIHJlc291cmNlczoKICAgIC0gc2VjcmV0cwogICAgcHJvdmlkZXJzOgogICAgLSBhZXNjYmM6CiAgICAgICAga2V5czoKICAgICAgICAtIG5hbWU6IGtleTEKICAgICAgICAgIHNlY3JldDogYVNaaCtyMFlGRjl2VnkvZ0tyaEtjaHN0Yi9VYzlMRUJNWmRzZ1RQMWV1QT0KICAgIC0gaWRlbnRpdHk6IHt9Cg==
+    - name: controlPlaneCertificateRotation
+      value:
+        activate: false
+        daysBefore: 90
+    - name: defaultStorageClass
+      value: vc01cl01-t0compute
+    - name: defaultVolumeSnapshotClass
+      value: volumesnapshotclass-delete
+    - name: extensionCert
+      value:
+        contentSecret:
+          key: tls.crt
+          name: pre-prod1-extensions-ca
+    - name: ntp
+      value: time1.oc.vmware.com
+    - name: storageClass
+      value: vc01cl01-t0compute
+    - name: trust
+      value:
+        additionalTrustedCAs:
+        - name: harbor.h2o-4-23130.h2o.vmware.com
+    - name: user
+      value:
+        passwordSecret:
+          key: ssh-passwordkey
+          name: pre-prod1-ssh-password-hashed
+        sshAuthorizedKey: |
+          ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLGoX3nIvb3p+wJNa4Vkm5Eef/n9dJjcoR1VhQU5W3IzYHTl0u1RcMuj/hXgLCweIggOzJzBQpURMYIfYKORdAzr4IQux1cHolDvuFB7fvYf1ZpWDnjaEZy1h70e33aRNpjhCMymH9+sw4ynMQRHymystV0OAzMLV0DPlQ0X6agQepE4foxyjenXmoduOPQdIh+7+TOEBmNMK40iry4zLTF5+B9Lsu+Sw96MAWGybuUJMxsqhQs3CCOp8UT3xwmBn+rQu6oes6RtkBQsMBDymkKOaBTjK6fRgqGG50IYeRk5O8bXXxKYrIQptlcCMegpddbZV8aaHOtJJkJn12A9+v6xg4jnU2LWee2hOfyU6wHvFIoJQ0SlrLD07jgxFPd6/uj+3X1lErTMY1sc46yWcKHeZJXO3AYFqt+FxjSQE6bX8DP1hAuOJw07ZtfNsCZ2LOZgkHu5JR/Emb7SIpIHMTfCuWTzt1Vk6ni4CFp9f+o7CNV8qUjgQ8JqrWAD1Q6mc7KwadPlwp0LVjhr8TMvtYoOp0gI8Wzxa4adG0kHDCcgFVOYd2YSqEJFYPjnq36tOC4taSgYb7Izf4Dv3yHPu+UcA80WIdp1qch1pumUqtxCSUxoYVQWmoFjPY8e2aVNgylTJAfuYtpt9YSVO7VoygSgtGaZbUaiYU9fTW4f7A4w==
+    - name: vmClass
+      value: best-effort-2xlarge
+    version: v1.26.5+vmware.2-fips.1
+    workers:
+      machineDeployments:
+      - class: node-pool
+        metadata:
+          annotations:
+            run.tanzu.vmware.com/resolve-os-image: os-name=photon,os-version=3,os-arch=amd64
+        name: md-0
+        replicas: 1
+        variables:
+          overrides:
+          - name: TKR_DATA
+            value:
+              v1.26.5+vmware.2-fips.1:
+                kubernetesSpec:
+                  coredns:
+                    imageRepository: localhost:5000/vmware.io
+                    imageTag: v1.9.3_vmware.10-fips.1
+                  etcd:
+                    imageRepository: localhost:5000/vmware.io
+                    imageTag: v3.5.6_vmware.14-fips.1
+                  imageRepository: localhost:5000/vmware.io
+                  kube-vip: null
+                  pause:
+                    imageRepository: localhost:5000/vmware.io
+                    imageTag: "3.9"
+                  version: v1.26.5+vmware.2-fips.1
+                labels:
+                  image-type: vmi
+                  os-arch: amd64
+                  os-name: photon
+                  os-type: linux
+                  os-version: "3"
+                  run.tanzu.vmware.com/os-image: vmi-226129e46dae1d9d7
+                  run.tanzu.vmware.com/tkr: v1.26.5---vmware.2-fips.1-tkg.1
+                  vmi-name: vmi-226129e46dae1d9d7
+                osImageRef:
+                  name: vmi-226129e46dae1d9d7
